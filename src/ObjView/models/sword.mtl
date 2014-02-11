@@ -1,0 +1,8 @@
+#Produced by Art of Illusion 1.7, Sat Jul 03 14:35:33 ICT 2004
+newmtl Material__25
+Kd 1 1 1
+map_Kd sword.png
+Ks 0.9 0.9 0.9
+Ka 0 0 0
+illum 1
+Ns 1
