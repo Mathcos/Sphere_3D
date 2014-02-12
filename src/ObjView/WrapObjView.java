@@ -180,8 +180,10 @@ public class WrapObjView extends JPanel
   private int numTextures;
   private int numVertElems;
   private int pointsCount;
+ 
 
 
+  public WrapObjView(){};
   public WrapObjView(String fnm)
   // A panel holding a 3D canvas
   {
@@ -260,8 +262,8 @@ public class WrapObjView extends JPanel
   // A blue sky
   { Background back = new Background();
     back.setApplicationBounds( bounds );
-    //back.setColor(0.17f, 0.65f, 0.92f);    // sky colour
-    back.setColor(0.34f, 0.66f, 0.124f);  
+   //back.setColor(0.17f, 0.65f, 0.92f);    // sky colour
+   back.setColor(1.43f, 1.88f, 1.43f);  
     
     sceneBG.addChild( back );
   }  // end of addBackground()
